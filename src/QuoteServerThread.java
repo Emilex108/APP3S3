@@ -36,25 +36,31 @@ public class QuoteServerThread extends Thread {
         //TODO:Replace le while (true)
         while (true) {
             try {
-                byte[] buf = new byte[32768];
-
-                // receive request
-                DatagramPacket packet = new DatagramPacket(buf, buf.length);
+                byte[] receivedData = new byte[32768];
+                // Recoit le packet
+                DatagramPacket packet = new DatagramPacket(receivedData, receivedData.length);
                 socket.receive(packet);
-                log("Premier packet reçu.");
-                // write data to file
-                fileRecu = new File("testRecu.txt");
+                log("Packet reçu.");
+                // Sauvegarde le nom du fichier
+                //TODO: Enleve le size du header à l'array de byte?
+                String fileName;
+                byte[] fileNameBytes = new byte[receivedData.length];
+                System.out.println("Taille du data : " + packet.getData()[14]);
+                System.arraycopy(receivedData, 15, fileNameBytes, 0, packet.getData()[14]);
+                fileName = new String(fileNameBytes).trim();
+                System.out.println(fileName);
+                fileRecu = new File(fileName);
                 osRecu = new FileOutputStream(fileRecu);
-                osRecu.write(packet.getData());
-                log("Premier acknowledgement écrit.");
-                buf = "Message recu!".getBytes();
+                osRecu.write("Test pour voir si le fichier s'écrit bien".getBytes());
+                //log("Premier acknowledgement écrit.");
+                /**buf = "Message recu!".getBytes();
 
                 // send the response to the client at "address" and "port"
                 InetAddress address = packet.getAddress();
                 int port = packet.getPort();
                 packet = new DatagramPacket(buf, buf.length, address, port);
                 socket.send(packet);
-                log("Réponse envoyée.");
+                log("Réponse envoyée.");**/
 
             } catch (IOException e) {
                 e.printStackTrace();

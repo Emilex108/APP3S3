@@ -11,20 +11,16 @@ public class QuoteClient {
 
     private static DatagramSocket socket;
     private static InetAddress address;
+    private static NetworkInterface ni;
     private static int portName = 27841;
     private static int currentPacketNumber = 0;
     private static OutputStream os;
 
     public static void main(String[] args) throws IOException {
 
-        if (args.length != 1) {
-            System.out.println("Usage: java QuoteClient <hostname>");
-            return;
-        }
-
         socket = new DatagramSocket();
-
-        address = InetAddress.getByName(args[0]);
+        address = InetAddress.getLocalHost();
+        ni = NetworkInterface.getByInetAddress(address);
 
         File file = new File("liaisonDeDonnees.log");
         os = new FileOutputStream(file, true);
@@ -59,16 +55,16 @@ public class QuoteClient {
 
         //Premier packet contient : Le nom du fichier
         //TODO: Modifier le packet pour qu'il contienne le bon data
-        DatagramPacket packet = new DatagramPacket(fileName.getBytes(), fileName.getBytes().length, address, portName);
+        DatagramPacket packet = new DatagramPacket(dataTotalAvantCRC, dataTotalAvantCRC.length, address, portName);
         log("Premier packet créé.");
         socket.send(packet);
         log("Premier packet envoyé.");
         //Recevoir la réponse (Acknowledgement)
-        byte[] bufferReception = new byte[32768];
+        /**byte[] bufferReception = new byte[32768];
         packet = new DatagramPacket(bufferReception, bufferReception.length);
         socket.receive(packet);
         System.out.println(new String(packet.getData(), StandardCharsets.UTF_8));
-        log(new String(packet.getData(), StandardCharsets.UTF_8));
+        log(new String(packet.getData(), StandardCharsets.UTF_8));**/
         //TODO: Prendre une décision selon le message de ACK (Renvoyer ou non)
         //TODO: Même processus total pour le data du fichier
     }
@@ -91,7 +87,7 @@ public class QuoteClient {
      * @param data Data à communiquer dans le packet
      * @return Un header complet avant CRC
      */
-    private static byte[] createHeader(byte[] data){
+    private static byte[] createHeader(byte[] data) throws SocketException {
         /**
          * # de packet  = 1 byte
          * délimiteur = 1 byte
@@ -106,17 +102,15 @@ public class QuoteClient {
         header[0] = (byte) (currentPacketNumber+1);
         //Ajoute le délimiteur (0) -> Simple car premier packet est 1
         header[1] = (byte) 01111110;
-        //TODO: S'assurer que le byte est chill, sinon le mettre en decimal et le cast
-        System.out.println(header[1]);
         for(int i = 2; i < 8; i++){
             //Check si l'adresse est la même (send/receive)
             //Sinon remplacer la deuxième assignation par l'adresse locale
             //TODO: Check si l'adresse contient 6 bytes (Print length) et check si c'est MAC address
-            header[i] = address.getAddress()[i-1];
-            header[i+6] = address.getAddress()[i-1];
+            header[i] = ni.getHardwareAddress()[i-2];
+            header[i+6] = ni.getHardwareAddress()[i-2];
         }
         //Ajoute la longueur du message dans le header
-        header[15] = (byte) data.length;
+        header[14] = (byte) data.length;
         return header;
     }
 }
