@@ -45,16 +45,16 @@ public class QuoteServerThread extends Thread {
                 //TODO: Enleve le size du header à l'array de byte?
                 String fileName;
                 byte[] fileNameBytes = new byte[receivedData.length];
-                System.out.println("Taille du data : " + packet.getData()[14]);
+                log("Taille du data reçu : " + packet.getData()[14]);
                 System.arraycopy(receivedData, 15, fileNameBytes, 0, packet.getData()[14]);
                 fileName = new String(fileNameBytes).trim();
-                System.out.println(fileName);
-                fileRecu = new File(fileName);
+                log("Nom du fichier : " + fileName);
+                fileRecu = new File("received/"+fileName);
                 osRecu = new FileOutputStream(fileRecu);
                 osRecu.write("Test pour voir si le fichier s'écrit bien".getBytes());
+                log("Fichier reçu créé.");
                 //log("Premier acknowledgement écrit.");
                 /**buf = "Message recu!".getBytes();
-
                 // send the response to the client at "address" and "port"
                 InetAddress address = packet.getAddress();
                 int port = packet.getPort();

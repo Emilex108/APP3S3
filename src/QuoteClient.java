@@ -45,6 +45,7 @@ public class QuoteClient {
         //--------------------COUCHE DE TRANSPORT
         //Crée un header
         byte[] dataHeader = createHeader(fileName.getBytes());
+        log("Header créé.");
         //Crée le data total avant CRC
         byte[] dataTotalAvantCRC = new byte[dataHeader.length+fileName.getBytes().length];
         System.arraycopy(dataHeader, 0, dataTotalAvantCRC, 0, dataHeader.length);
