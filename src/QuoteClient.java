@@ -17,7 +17,7 @@ public class QuoteClient {
     private static OutputStream os;
 
     public static void main(String[] args) throws IOException {
-
+        //TODO : Serveur et client -> Replace les chiffres par des CONST
         socket = new DatagramSocket();
         address = InetAddress.getLocalHost();
         ni = NetworkInterface.getByInetAddress(address);
@@ -61,12 +61,15 @@ public class QuoteClient {
         socket.send(packet);
         log("Premier packet envoyé.");
         //Recevoir la réponse (Acknowledgement)
-        /**byte[] bufferReception = new byte[32768];
+        byte[] bufferReception = new byte[32768];
         packet = new DatagramPacket(bufferReception, bufferReception.length);
         socket.receive(packet);
-        System.out.println(new String(packet.getData(), StandardCharsets.UTF_8));
-        log(new String(packet.getData(), StandardCharsets.UTF_8));**/
         //TODO: Prendre une décision selon le message de ACK (Renvoyer ou non)
+        if(packet.getData()[15] == 1){
+            log("ACK Réussit.");
+        }else{
+            log("ACK Failed.");
+        }
         //TODO: Même processus total pour le data du fichier
     }
 
@@ -102,7 +105,7 @@ public class QuoteClient {
         //Ajoute le numéro de packet
         header[0] = (byte) (currentPacketNumber+1);
         //Ajoute le délimiteur (0) -> Simple car premier packet est 1
-        header[1] = (byte) 01111110;
+        header[1] = (byte) '~';
         for(int i = 2; i < 8; i++){
             //Check si l'adresse est la même (send/receive)
             //Sinon remplacer la deuxième assignation par l'adresse locale
