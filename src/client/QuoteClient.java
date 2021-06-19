@@ -109,7 +109,7 @@ public class QuoteClient {
         for(int i = 2; i < 8; i++){
             //Check si l'adresse est la même (send/receive)
             //Sinon remplacer la deuxième assignation par l'adresse locale
-            //TODO: Check si l'adresse contient 6 bytes (Print length) et check si c'est MAC address
+            //TODO: check si c'est MAC address (Mais pas mal sure, elle contient 6 bytes)
             header[i] = ni.getHardwareAddress()[i-2];
             header[i+6] = ni.getHardwareAddress()[i-2];
         }
