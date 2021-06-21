@@ -12,14 +12,24 @@ public class Application {
         byte[] dataFichier;
         if(sequenceNumber == 0){
             dataFichier = filename.getBytes();
+            pdu.getPacket().setData(dataFichier);
         }else{
-            //TODO: Fragmentation
             dataFichier = Files.readAllBytes(Paths.get(filename));
             if(dataFichier.length > 200){
-                
+                while(dataFichier.length > 200){
+                    byte[] temp = new byte[200];
+                    System.arraycopy(dataFichier,0,temp,0,200);
+                    pdu.getPacket().setData(temp);
+                    QuoteClient.log("Couche application effectuée.");
+                    Transport.ajouterCouche(pdu, sequenceNumber, QuoteClient.ni);
+                    Liaison.ajouterCouche(pdu, QuoteClient.socket, QuoteClient.address, QuoteClient.portName);
+                    System.arraycopy(dataFichier, 200, dataFichier, 0, dataFichier.length-200);
+                    sequenceNumber++;
+                }
+            }else{
+                pdu.getPacket().setData(dataFichier);
+                QuoteClient.log("Couche application effectuée.");
             }
         }
-        pdu.getPacket().setData(dataFichier);
-        QuoteClient.log("Couche application effectuée.");
     }
 }

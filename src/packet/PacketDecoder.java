@@ -20,10 +20,12 @@ public class PacketDecoder {
         checksum.update(tempData, 0, tempData.length);
         long checksumValue = checksum.getValue();
         long checksumCheck = 0;
+
         for(int i = 0; i< 8; i++){
             checksumCheck <<= 8;
             checksumCheck |= (crc[i] & 0xFF);
         }
+
         System.out.println("Checksum Value VS Checksum Check : " + checksumValue + " " + checksumCheck);
         if(checksumValue == checksumCheck){
             return true;

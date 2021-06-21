@@ -10,10 +10,10 @@ import java.sql.Timestamp;
 
 public class QuoteClient {
 
-    private static DatagramSocket socket;
-    private static InetAddress address;
-    private static NetworkInterface ni;
-    private static int portName = 27841;
+    public static DatagramSocket socket;
+    public static InetAddress address;
+    public static NetworkInterface ni;
+    public static int portName = 27841;
     private static int currentPacketNumber = 0;
     private static OutputStream os;
 

@@ -28,7 +28,6 @@ public class Transport {
          * taille du message = 1 byte
          * total = 15 bytes
          */
-        //TODO: Ajouter place pour CRC
         byte[] header = new byte[15];
         //Ajoute le numéro de packet
         header[0] = (byte) (sequenceNumber);
@@ -37,7 +36,6 @@ public class Transport {
         for(int i = 2; i < 8; i++){
             //Check si l'adresse est la même (send/receive)
             //Sinon remplacer la deuxième assignation par l'adresse locale
-            //TODO: check si c'est MAC address (Mais pas mal sure, elle contient 6 bytes)
             header[i] = ni.getHardwareAddress()[i-2];
             header[i+6] = ni.getHardwareAddress()[i-2];
         }
