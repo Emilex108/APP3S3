@@ -1,3 +1,5 @@
+package server;
+
 import java.io.*;
 
 public class QuoteServer {
