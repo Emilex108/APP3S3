@@ -5,22 +5,22 @@ import java.net.DatagramPacket;
 import java.util.zip.CRC32;
 import java.util.zip.Checksum;
 
-public class PacketDecoder {
+public class PacketDecoderServer {
 
     private static String fileName;
     private static File fileRecu;
     private static OutputStream osRecu;
-    private static PacketDecoder instance;
+    private static PacketDecoderServer instance;
 
-    private PacketDecoder(){
+    private PacketDecoderServer(){
 
     }
 
-    public static PacketDecoder getInstance(){
-        if(PacketDecoder.instance == null){
-            PacketDecoder.instance = new PacketDecoder();
+    public static PacketDecoderServer getInstance(){
+        if(PacketDecoderServer.instance == null){
+            PacketDecoderServer.instance = new PacketDecoderServer();
         }
-        return PacketDecoder.instance;
+        return PacketDecoderServer.instance;
     }
 
     public boolean checkValidity(DatagramPacket packet){

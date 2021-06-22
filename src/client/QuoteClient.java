@@ -34,24 +34,18 @@ public class QuoteClient {
         os = new FileOutputStream(file, true);
 
         //Création du premier packet
-        Application.ajouterCouche(new PDUMaison(), args[0],0);
+        Application.handle(new PDUMaison(), args[0],0, true);
         byte[] receivedData = new byte[24];
         DatagramPacket packet = new DatagramPacket(receivedData, receivedData.length);
         socket.receive(packet);
 
         while(packet.getData()[15] == 0){
             log("Renvoie du packet.");
-            Application.ajouterCouche(new PDUMaison(), args[0],0);
-            //builder.ajouterCoucheTransportClient(0, ni);
-            //builder.ajouterCoucheLiaisonClient(socket, address, portName);
+            Application.handle(new PDUMaison(), args[0],0, false);
             socket.receive(packet);
         }
 
-        Application.ajouterCouche(new PDUMaison(), args[0],1);
-        //builder.ajouterCoucheTransportClient(1, ni);
-        //builder.ajouterCoucheLiaisonClient(socket, address, portName);
-
-        //builder.getPacket();
+        Application.handle(new PDUMaison(), args[0],1, false);
 
         socket.close();
     }

@@ -1,8 +1,8 @@
 package server;
 
+import exceptions.TransmissionErrorException;
 import packet.PDUBuilder;
-import packet.PDUMaison;
-import packet.PacketDecoder;
+import packet.PacketDecoderServer;
 
 import java.io.*;
 import java.net.*;
@@ -11,13 +11,10 @@ import java.sql.Timestamp;
 public class QuoteServerThread extends Thread {
 
     private DatagramSocket socket = null;
-    private File fileRecu;
-    private OutputStream osRecu;
     private NetworkInterface ni;
-    private int currentPacketNumber = 0;
     private static File log;
     private static OutputStream osLog;
-    private static PacketDecoder decoder;
+    private int erreurs;
 
     public QuoteServerThread() throws IOException {
         this("QuoteServerThread");
@@ -26,9 +23,9 @@ public class QuoteServerThread extends Thread {
     public QuoteServerThread(String name) throws IOException {
         super(name);
         socket = new DatagramSocket(27841);
-        decoder = PacketDecoder.getInstance();
         log = new File("liaisonDeDonnees.log");
         osLog = new FileOutputStream(log,true);
+        erreurs = 0;
     }
 
     public void run() {
@@ -41,22 +38,32 @@ public class QuoteServerThread extends Thread {
 
                 ni = NetworkInterface.getByInetAddress(packet.getAddress());
                 log("Packet reçu.");
-                if(decoder.checkValidity(packet)){
+                PDUBuilder builder = new PDUBuilder();
+                if(PacketDecoderServer.getInstance().checkValidity(packet)){
                     log("Fichier validé.");
+                    PacketDecoderServer.getInstance().saveFile(packet);
+                    builder.ajouterCoucheApplicationServeur(PacketDecoderServer.getInstance().checkValidity(packet));
+                    builder.ajouterCoucheTransportServeur(0, ni);
+                    builder.ajouterCoucheLiaisonServeur(socket, packet);
                 }else{
+                    erreurs++;
+                    if(erreurs == 3){
+                        throw new TransmissionErrorException("Trop d'erreurs. Arrêt du serveur.");
+                    }
                     log("Fichier avec erreur, demande de réenvoie.");
+                    builder.ajouterCoucheApplicationServeur(PacketDecoderServer.getInstance().checkValidity(packet));
+                    builder.ajouterCoucheTransportServeur(0, ni);
+                    builder.ajouterCoucheLiaisonServeur(socket, packet);
                 }
 
                 // Sauvegarde le nom du fichier
-                decoder.saveFile(packet);
 
-                PDUBuilder builder = new PDUBuilder();
 
-                builder.ajouterCoucheApplicationServeur(decoder.checkValidity(packet));
-                builder.ajouterCoucheTransportServeur(0, ni);
-                builder.ajouterCoucheLiaisonServeur(socket, packet);
 
-            } catch (IOException e) {
+
+
+
+            } catch (IOException | TransmissionErrorException e) {
                 e.printStackTrace();
             }
         }

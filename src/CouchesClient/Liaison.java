@@ -11,7 +11,7 @@ import java.util.zip.Checksum;
 
 
 public class Liaison {
-    public static void ajouterCouche(PDUMaison pdu, DatagramSocket socket, InetAddress address, int port) throws IOException {
+    public static void handle(PDUMaison pdu, DatagramSocket socket, InetAddress address, int port, boolean error) throws IOException {
         pdu.getPacket().setAddress(address);
         pdu.getPacket().setPort(port);
         pdu.getPacket().setLength(pdu.getPacket().getLength());
@@ -27,6 +27,9 @@ public class Liaison {
         byte[] dataFinal = new byte[pdu.getPacket().getData().length+result.length];
         System.arraycopy(pdu.getPacket().getData(), 0, dataFinal, 0, pdu.getPacket().getData().length);
         System.arraycopy(result, 0, dataFinal, pdu.getPacket().getData().length, result.length);
+        if(error){
+            dataFinal[20] = (byte) (dataFinal[1]-1);
+        }
         pdu.getPacket().setData(dataFinal);
         socket.send(pdu.getPacket());
         QuoteClient.log("Couche de liaison effectuée.");

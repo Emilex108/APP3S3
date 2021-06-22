@@ -9,7 +9,7 @@ import java.net.SocketException;
 
 
 public class Transport {
-    public static void ajouterCouche(PDUMaison pdu, int sequenceNumber, NetworkInterface ni) throws IOException {
+    public static void handle(PDUMaison pdu, int sequenceNumber, NetworkInterface ni) throws IOException {
         byte[] dataHeader = createHeader(pdu.getPacket().getData(), sequenceNumber, ni);
         QuoteClient.log("Header créé.");
         byte[] dataTotalAvantCRC = new byte[dataHeader.length+pdu.getPacket().getData().length];
