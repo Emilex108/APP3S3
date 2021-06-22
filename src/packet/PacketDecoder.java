@@ -10,8 +10,20 @@ public class PacketDecoder {
     private static String fileName;
     private static File fileRecu;
     private static OutputStream osRecu;
+    private static PacketDecoder instance;
 
-    public static boolean checkValidity(DatagramPacket packet){
+    private PacketDecoder(){
+
+    }
+
+    public static PacketDecoder getInstance(){
+        if(PacketDecoder.instance == null){
+            PacketDecoder.instance = new PacketDecoder();
+        }
+        return PacketDecoder.instance;
+    }
+
+    public boolean checkValidity(DatagramPacket packet){
         byte[] crc = new byte[8];
         System.arraycopy(packet.getData(), packet.getData()[14]+15, crc, 0, 8);
         byte[] tempData = new byte[packet.getData()[14]+15];
@@ -34,7 +46,7 @@ public class PacketDecoder {
         }
     }
 
-    public static void saveFile(DatagramPacket packet) throws IOException {
+    public void saveFile(DatagramPacket packet) throws IOException {
         if(packet.getData()[0] == 0){
             byte[] fileNameBytes = new byte[packet.getData()[14]];
             System.arraycopy(packet.getData(), 15, fileNameBytes, 0, packet.getData()[14]);

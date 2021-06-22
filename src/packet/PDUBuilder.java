@@ -6,13 +6,8 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 
-public class PDUBuilder implements Builder {
+public class PDUBuilder implements BuilderServeur {
     PDUMaison pdu = new PDUMaison();
-
-    @Override
-    public void ajouterCoucheApplicationClient(String filename, int sequenceNumber) throws IOException {
-        CouchesClient.Application.ajouterCouche(pdu, filename, sequenceNumber);
-    }
 
     @Override
     public void ajouterCoucheApplicationServeur(boolean valide) throws IOException {
@@ -20,18 +15,8 @@ public class PDUBuilder implements Builder {
     }
 
     @Override
-    public void ajouterCoucheTransportClient(int sequenceNumber, NetworkInterface ni) throws IOException {
-        CouchesClient.Transport.ajouterCouche(pdu, sequenceNumber, ni);
-    }
-
-    @Override
     public void ajouterCoucheTransportServeur(int sequenceNumber, NetworkInterface ni) throws IOException {
         CouchesServeur.Transport.ajouterCouche(pdu, sequenceNumber, ni);
-    }
-
-    @Override
-    public void ajouterCoucheLiaisonClient(DatagramSocket socket, InetAddress address, int port) throws IOException {
-        CouchesClient.Liaison.ajouterCouche(pdu, socket, address, port);
     }
 
     @Override

@@ -17,7 +17,7 @@ public class QuoteServerThread extends Thread {
     private int currentPacketNumber = 0;
     private static File log;
     private static OutputStream osLog;
-    private static PacketDecoder decoder = new PacketDecoder();
+    private static PacketDecoder decoder;
 
     public QuoteServerThread() throws IOException {
         this("QuoteServerThread");
@@ -26,7 +26,7 @@ public class QuoteServerThread extends Thread {
     public QuoteServerThread(String name) throws IOException {
         super(name);
         socket = new DatagramSocket(27841);
-
+        decoder = PacketDecoder.getInstance();
         log = new File("liaisonDeDonnees.log");
         osLog = new FileOutputStream(log,true);
     }

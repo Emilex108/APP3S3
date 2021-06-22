@@ -1,6 +1,8 @@
 package client;
 
+import CouchesClient.Application;
 import packet.PDUBuilder;
+import packet.PDUMaison;
 
 import java.io.*;
 import java.net.*;
@@ -16,7 +18,6 @@ public class QuoteClient {
     public static int portName = 27841;
     private static int currentPacketNumber = 0;
     private static OutputStream os;
-    public static PDUBuilder builder;
 
     public static void main(String[] args) throws IOException {
         //TODO : Serveur et client -> Replace les chiffres par des CONST
@@ -32,24 +33,21 @@ public class QuoteClient {
         File file = new File("liaisonDeDonnees.log");
         os = new FileOutputStream(file, true);
 
-        builder = new PDUBuilder();
-
         //Création du premier packet
-        builder.ajouterCoucheApplicationClient(args[0],0);
-
+        Application.ajouterCouche(new PDUMaison(), args[0],0);
         byte[] receivedData = new byte[24];
         DatagramPacket packet = new DatagramPacket(receivedData, receivedData.length);
         socket.receive(packet);
 
         while(packet.getData()[15] == 0){
             log("Renvoie du packet.");
-            builder.ajouterCoucheApplicationClient(args[0],0);
+            Application.ajouterCouche(new PDUMaison(), args[0],0);
             //builder.ajouterCoucheTransportClient(0, ni);
             //builder.ajouterCoucheLiaisonClient(socket, address, portName);
             socket.receive(packet);
         }
 
-        builder.ajouterCoucheApplicationClient(args[0],1);
+        Application.ajouterCouche(new PDUMaison(), args[0],1);
         //builder.ajouterCoucheTransportClient(1, ni);
         //builder.ajouterCoucheLiaisonClient(socket, address, portName);
 
