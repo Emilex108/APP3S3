@@ -1,852 +1,180 @@
-[19:47:19.0] [Client] : Header créé.
-[19:47:19.0] [Client] : Couche de transport effectuée.
-[19:47:19.0] [Client] : Couche de liaison effectuée.
-[19:47:19.0] [Serveur] : Packet reçu.
-[19:47:19.0] [Serveur] : Fichier validé.
-[19:47:19.0] [Serveur] : Couche application effectuée.
-[19:47:19.1] [Serveur] : Header créé.
-[19:47:19.1] [Serveur] : Couche de transport effectuée.
-[19:47:19.1] [Serveur] : Couche de liaison effectuée.
-[19:47:19.1] [Client] : Couche application effectuée.
-[19:47:19.1] [Client] : Header créé.
-[19:47:19.1] [Client] : Couche de transport effectuée.
-[19:47:19.1] [Client] : Couche de liaison effectuée.
-[19:47:19.1] [Client] : Couche application effectuée.
-[19:47:19.1] [Serveur] : Packet reçu.
-[19:47:19.1] [Serveur] : Fichier validé.
-[19:47:19.1] [Serveur] : Couche application effectuée.
-[19:47:19.1] [Client] : Header créé.
-[19:47:19.1] [Client] : Couche de transport effectuée.
-[19:47:19.1] [Client] : Couche de liaison effectuée.
-[19:47:19.1] [Client] : Couche application effectuée.
-[19:47:19.1] [Serveur] : Header créé.
-[19:47:19.1] [Serveur] : Couche de transport effectuée.
-[19:47:19.1] [Serveur] : Couche de liaison effectuée.
-[19:47:19.1] [Serveur] : Packet reçu.
-[19:47:19.1] [Serveur] : Fichier validé.
-[19:47:19.1] [Serveur] : Couche application effectuée.
-[19:47:19.1] [Client] : Header créé.
-[19:47:19.1] [Client] : Couche de transport effectuée.
-[19:47:19.1] [Client] : Couche de liaison effectuée.
-[19:47:19.1] [Client] : Couche application effectuée.
-[19:47:19.1] [Serveur] : Header créé.
-[19:47:19.1] [Serveur] : Couche de transport effectuée.
-[19:47:19.1] [Serveur] : Couche de liaison effectuée.
-[19:47:19.1] [Serveur] : Packet reçu.
-[19:47:19.1] [Serveur] : Fichier validé.
-[19:47:19.1] [Serveur] : Couche application effectuée.
-[19:47:19.1] [Client] : Header créé.
-[19:47:19.1] [Client] : Couche de transport effectuée.
-[19:47:19.1] [Client] : Couche de liaison effectuée.
-[19:47:19.1] [Client] : Couche application effectuée.
-[19:47:19.2] [Serveur] : Header créé.
-[19:47:19.2] [Serveur] : Couche de transport effectuée.
-[19:47:19.2] [Serveur] : Couche de liaison effectuée.
-[19:47:19.2] [Serveur] : Packet reçu.
-[19:47:19.2] [Serveur] : Fichier validé.
-[19:47:19.2] [Serveur] : Couche application effectuée.
-[19:47:19.2] [Client] : Header créé.
-[19:47:19.2] [Client] : Couche de transport effectuée.
-[19:47:19.2] [Client] : Couche de liaison effectuée.
-[19:47:19.2] [Client] : Couche application effectuée.
-[19:47:19.2] [Serveur] : Header créé.
-[19:47:19.2] [Serveur] : Couche de transport effectuée.
-[19:47:19.2] [Serveur] : Couche de liaison effectuée.
-[19:47:19.2] [Serveur] : Packet reçu.
-[19:47:19.2] [Serveur] : Fichier validé.
-[19:47:19.2] [Serveur] : Couche application effectuée.
-[19:47:19.2] [Client] : Header créé.
-[19:47:19.2] [Client] : Couche de transport effectuée.
-[19:47:19.2] [Client] : Couche de liaison effectuée.
-[19:47:19.2] [Client] : Couche application effectuée.
-[19:47:19.2] [Serveur] : Header créé.
-[19:47:19.2] [Serveur] : Couche de transport effectuée.
-[19:47:19.2] [Serveur] : Couche de liaison effectuée.
-[19:47:19.2] [Client] : Header créé.
-[19:47:19.2] [Client] : Couche de transport effectuée.
-[19:47:19.2] [Client] : Couche de liaison effectuée.
-[19:47:19.2] [Client] : Couche application effectuée.
-[19:47:19.2] [Serveur] : Packet reçu.
-[19:47:19.2] [Serveur] : Fichier validé.
-[19:47:19.2] [Serveur] : Couche application effectuée.
-[19:47:19.2] [Serveur] : Header créé.
-[19:47:19.2] [Serveur] : Couche de transport effectuée.
-[19:47:19.2] [Serveur] : Couche de liaison effectuée.
-[19:47:19.2] [Client] : Header créé.
-[19:47:19.2] [Client] : Couche de transport effectuée.
-[19:47:19.2] [Client] : Couche de liaison effectuée.
-[19:47:19.2] [Client] : Couche application effectuée.
-[19:47:19.2] [Serveur] : Packet reçu.
-[19:47:19.2] [Serveur] : Fichier validé.
-[19:47:19.2] [Serveur] : Couche application effectuée.
-[19:47:19.3] [Client] : Header créé.
-[19:47:19.3] [Client] : Couche de transport effectuée.
-[19:47:19.3] [Client] : Couche de liaison effectuée.
-[19:47:19.3] [Client] : Couche application effectuée.
-[19:47:19.3] [Serveur] : Header créé.
-[19:47:19.3] [Serveur] : Couche de transport effectuée.
-[19:47:19.3] [Serveur] : Couche de liaison effectuée.
-[19:47:19.3] [Serveur] : Packet reçu.
-[19:47:19.3] [Serveur] : Fichier validé.
-[19:47:19.3] [Serveur] : Couche application effectuée.
-[19:47:19.3] [Client] : Header créé.
-[19:47:19.3] [Client] : Couche de transport effectuée.
-[19:47:19.3] [Client] : Couche de liaison effectuée.
-[19:47:19.3] [Client] : Couche application effectuée.
-[19:47:19.3] [Serveur] : Header créé.
-[19:47:19.3] [Serveur] : Couche de transport effectuée.
-[19:47:19.3] [Serveur] : Couche de liaison effectuée.
-[19:47:19.3] [Serveur] : Packet reçu.
-[19:47:19.3] [Serveur] : Fichier validé.
-[19:47:19.3] [Serveur] : Couche application effectuée.
-[19:47:19.3] [Client] : Header créé.
-[19:47:19.3] [Client] : Couche de transport effectuée.
-[19:47:19.3] [Client] : Couche de liaison effectuée.
-[19:47:19.3] [Client] : Couche application effectuée.
-[19:47:19.3] [Serveur] : Header créé.
-[19:47:19.3] [Serveur] : Couche de transport effectuée.
-[19:47:19.3] [Serveur] : Couche de liaison effectuée.
-[19:47:19.3] [Serveur] : Packet reçu.
-[19:47:19.3] [Serveur] : Fichier validé.
-[19:47:19.3] [Serveur] : Couche application effectuée.
-[19:47:19.3] [Client] : Header créé.
-[19:47:19.3] [Client] : Couche de transport effectuée.
-[19:47:19.3] [Client] : Couche de liaison effectuée.
-[19:47:19.3] [Serveur] : Header créé.
-[19:47:19.3] [Serveur] : Couche de transport effectuée.
-[19:47:19.3] [Serveur] : Couche de liaison effectuée.
-[19:47:19.3] [Serveur] : Packet reçu.
-[19:47:19.3] [Serveur] : Fichier validé.
-[19:47:19.3] [Serveur] : Couche application effectuée.
-[19:47:19.4] [Serveur] : Header créé.
-[19:47:19.4] [Serveur] : Couche de transport effectuée.
-[19:47:19.4] [Serveur] : Couche de liaison effectuée.
-[19:47:19.4] [Serveur] : Packet reçu.
-[19:47:19.4] [Serveur] : Fichier validé.
-[19:47:19.4] [Serveur] : Couche application effectuée.
-[19:47:19.4] [Serveur] : Header créé.
-[19:47:19.4] [Serveur] : Couche de transport effectuée.
-[19:47:19.4] [Serveur] : Couche de liaison effectuée.
-[19:48:36.7] [Client] : Header créé.
-[19:48:36.7] [Client] : Couche de transport effectuée.
-[19:48:36.7] [Client] : Couche de liaison effectuée.
-[19:48:36.7] [Serveur] : Packet reçu.
-[19:48:36.7] [Serveur] : Fichier validé.
-[19:48:36.7] [Serveur] : Couche application effectuée.
-[19:48:36.8] [Serveur] : Header créé.
-[19:48:36.8] [Serveur] : Couche de transport effectuée.
-[19:48:36.8] [Serveur] : Couche de liaison effectuée.
-[19:48:36.8] [Client] : Couche application effectuée.
-[19:48:36.8] [Client] : Header créé.
-[19:48:36.8] [Client] : Couche de transport effectuée.
-[19:48:36.8] [Client] : Couche de liaison effectuée.
-[19:48:36.8] [Client] : Couche application effectuée.
-[19:48:36.8] [Serveur] : Packet reçu.
-[19:48:36.8] [Serveur] : Fichier validé.
-[19:48:36.8] [Serveur] : Couche application effectuée.
-[19:48:36.8] [Client] : Header créé.
-[19:48:36.8] [Client] : Couche de transport effectuée.
-[19:48:36.8] [Client] : Couche de liaison effectuée.
-[19:48:36.8] [Client] : Couche application effectuée.
-[19:48:36.8] [Serveur] : Header créé.
-[19:48:36.8] [Serveur] : Couche de transport effectuée.
-[19:48:36.8] [Serveur] : Couche de liaison effectuée.
-[19:48:36.8] [Serveur] : Packet reçu.
-[19:48:36.8] [Serveur] : Fichier validé.
-[19:48:36.8] [Serveur] : Couche application effectuée.
-[19:48:36.8] [Client] : Header créé.
-[19:48:36.8] [Client] : Couche de transport effectuée.
-[19:48:36.8] [Client] : Couche de liaison effectuée.
-[19:48:36.8] [Client] : Couche application effectuée.
-[19:48:36.8] [Serveur] : Header créé.
-[19:48:36.8] [Serveur] : Couche de transport effectuée.
-[19:48:36.8] [Serveur] : Couche de liaison effectuée.
-[19:48:36.8] [Serveur] : Packet reçu.
-[19:48:36.8] [Serveur] : Fichier validé.
-[19:48:36.8] [Serveur] : Couche application effectuée.
-[19:48:36.8] [Client] : Header créé.
-[19:48:36.8] [Client] : Couche de transport effectuée.
-[19:48:36.8] [Client] : Couche de liaison effectuée.
-[19:48:36.8] [Client] : Couche application effectuée.
-[19:48:36.8] [Serveur] : Header créé.
-[19:48:36.8] [Serveur] : Couche de transport effectuée.
-[19:48:36.8] [Serveur] : Couche de liaison effectuée.
-[19:48:36.9] [Serveur] : Packet reçu.
-[19:48:36.9] [Serveur] : Fichier validé.
-[19:48:36.9] [Serveur] : Couche application effectuée.
-[19:48:36.9] [Client] : Header créé.
-[19:48:36.9] [Client] : Couche de transport effectuée.
-[19:48:36.9] [Client] : Couche de liaison effectuée.
-[19:48:36.9] [Client] : Couche application effectuée.
-[19:48:36.9] [Serveur] : Header créé.
-[19:48:36.9] [Serveur] : Couche de transport effectuée.
-[19:48:36.9] [Serveur] : Couche de liaison effectuée.
-[19:48:36.9] [Serveur] : Packet reçu.
-[19:48:36.9] [Serveur] : Fichier validé.
-[19:48:36.9] [Serveur] : Couche application effectuée.
-[19:48:36.9] [Client] : Header créé.
-[19:48:36.9] [Client] : Couche de transport effectuée.
-[19:48:36.9] [Client] : Couche de liaison effectuée.
-[19:48:36.9] [Client] : Couche application effectuée.
-[19:48:36.9] [Serveur] : Header créé.
-[19:48:36.9] [Serveur] : Couche de transport effectuée.
-[19:48:36.9] [Serveur] : Couche de liaison effectuée.
-[19:48:36.9] [Client] : Header créé.
-[19:48:36.9] [Client] : Couche de transport effectuée.
-[19:48:36.9] [Client] : Couche de liaison effectuée.
-[19:48:36.9] [Client] : Couche application effectuée.
-[19:48:36.9] [Serveur] : Packet reçu.
-[19:48:36.9] [Serveur] : Fichier validé.
-[19:48:36.9] [Serveur] : Couche application effectuée.
-[19:48:36.9] [Client] : Header créé.
-[19:48:36.9] [Client] : Couche de transport effectuée.
-[19:48:36.9] [Client] : Couche de liaison effectuée.
-[19:48:36.9] [Client] : Couche application effectuée.
-[19:48:36.9] [Serveur] : Header créé.
-[19:48:36.9] [Serveur] : Couche de transport effectuée.
-[19:48:36.9] [Serveur] : Couche de liaison effectuée.
-[19:48:36.9] [Serveur] : Packet reçu.
-[19:48:36.9] [Serveur] : Fichier validé.
-[19:48:36.9] [Serveur] : Couche application effectuée.
-[19:48:36.9] [Client] : Header créé.
-[19:48:36.9] [Client] : Couche de transport effectuée.
-[19:48:36.9] [Client] : Couche de liaison effectuée.
-[19:48:36.9] [Client] : Couche application effectuée.
-[19:48:36.9] [Serveur] : Header créé.
-[19:48:36.9] [Serveur] : Couche de transport effectuée.
-[19:48:36.9] [Serveur] : Couche de liaison effectuée.
-[19:48:37.0] [Serveur] : Packet reçu.
-[19:48:37.0] [Serveur] : Fichier validé.
-[19:48:37.0] [Serveur] : Couche application effectuée.
-[19:48:37.0] [Client] : Header créé.
-[19:48:37.0] [Client] : Couche de transport effectuée.
-[19:48:37.0] [Client] : Couche de liaison effectuée.
-[19:48:37.0] [Client] : Couche application effectuée.
-[19:48:37.0] [Serveur] : Header créé.
-[19:48:37.0] [Serveur] : Couche de transport effectuée.
-[19:48:37.0] [Serveur] : Couche de liaison effectuée.
-[19:48:37.0] [Serveur] : Packet reçu.
-[19:48:37.0] [Serveur] : Fichier validé.
-[19:48:37.0] [Serveur] : Couche application effectuée.
-[19:48:37.0] [Client] : Header créé.
-[19:48:37.0] [Client] : Couche de transport effectuée.
-[19:48:37.0] [Client] : Couche de liaison effectuée.
-[19:48:37.0] [Client] : Couche application effectuée.
-[19:48:37.0] [Serveur] : Header créé.
-[19:48:37.0] [Serveur] : Couche de transport effectuée.
-[19:48:37.0] [Serveur] : Couche de liaison effectuée.
-[19:48:37.0] [Serveur] : Packet reçu.
-[19:48:37.0] [Serveur] : Fichier validé.
-[19:48:37.0] [Serveur] : Couche application effectuée.
-[19:48:37.0] [Client] : Header créé.
-[19:48:37.0] [Client] : Couche de transport effectuée.
-[19:48:37.0] [Client] : Couche de liaison effectuée.
-[19:48:37.0] [Client] : Couche application effectuée.
-[19:48:37.0] [Serveur] : Header créé.
-[19:48:37.0] [Serveur] : Couche de transport effectuée.
-[19:48:37.0] [Serveur] : Couche de liaison effectuée.
-[19:48:37.0] [Serveur] : Packet reçu.
-[19:48:37.0] [Serveur] : Fichier validé.
-[19:48:37.0] [Serveur] : Couche application effectuée.
-[19:48:37.0] [Client] : Header créé.
-[19:48:37.0] [Client] : Couche de transport effectuée.
-[19:48:37.0] [Client] : Couche de liaison effectuée.
-[19:48:37.0] [Serveur] : Header créé.
-[19:48:37.0] [Serveur] : Couche de transport effectuée.
-[19:48:37.0] [Serveur] : Couche de liaison effectuée.
-[19:48:37.0] [Serveur] : Packet reçu.
-[19:48:37.0] [Serveur] : Fichier validé.
-[19:48:37.0] [Serveur] : Couche application effectuée.
-[19:48:37.0] [Client] : Header créé.
-[19:48:37.0] [Client] : Couche de transport effectuée.
-[19:48:37.0] [Client] : Couche de liaison effectuée.
-[19:48:37.1] [Serveur] : Header créé.
-[19:48:37.1] [Serveur] : Couche de transport effectuée.
-[19:48:37.1] [Serveur] : Couche de liaison effectuée.
-[19:48:37.1] [Serveur] : Packet reçu.
-[19:48:37.1] [Serveur] : Fichier validé.
-[19:48:37.1] [Serveur] : Couche application effectuée.
-[19:48:37.1] [Serveur] : Header créé.
-[19:48:37.1] [Serveur] : Couche de transport effectuée.
-[19:48:37.1] [Serveur] : Couche de liaison effectuée.
-[19:48:37.1] [Serveur] : Packet reçu.
-[19:48:37.1] [Serveur] : Fichier validé.
-[19:48:37.1] [Serveur] : Couche application effectuée.
-[19:48:37.1] [Serveur] : Header créé.
-[19:48:37.1] [Serveur] : Couche de transport effectuée.
-[19:48:37.1] [Serveur] : Couche de liaison effectuée.
-[19:55:50.1] [Client] : Header créé.
-[19:55:50.1] [Client] : Couche de transport effectuée.
-[19:55:50.1] [Client] : Couche de liaison effectuée.
-[19:55:50.2] [Serveur] : Packet reçu.
-[19:55:50.2] [Serveur] : Fichier validé.
-[19:55:50.2] [Serveur] : Couche application effectuée.
-[19:55:50.2] [Serveur] : Header créé.
-[19:55:50.2] [Serveur] : Couche de transport effectuée.
-[19:55:50.2] [Serveur] : Couche de liaison effectuée.
-[19:55:50.2] [Client] : Couche application effectuée.
-[19:55:50.2] [Client] : Header créé.
-[19:55:50.2] [Client] : Couche de transport effectuée.
-[19:55:50.2] [Client] : Couche de liaison effectuée.
-[19:55:50.2] [Client] : Couche application effectuée.
-[19:55:50.2] [Serveur] : Packet reçu.
-[19:55:50.2] [Serveur] : Fichier validé.
-[19:55:50.2] [Serveur] : Couche application effectuée.
-[19:55:50.2] [Client] : Header créé.
-[19:55:50.2] [Client] : Couche de transport effectuée.
-[19:55:50.2] [Client] : Couche de liaison effectuée.
-[19:55:50.2] [Client] : Couche application effectuée.
-[19:55:50.2] [Serveur] : Header créé.
-[19:55:50.2] [Serveur] : Couche de transport effectuée.
-[19:55:50.2] [Serveur] : Couche de liaison effectuée.
-[19:55:50.2] [Serveur] : Packet reçu.
-[19:55:50.2] [Serveur] : Fichier validé.
-[19:55:50.2] [Serveur] : Couche application effectuée.
-[19:55:50.2] [Client] : Header créé.
-[19:55:50.2] [Client] : Couche de transport effectuée.
-[19:55:50.2] [Client] : Couche de liaison effectuée.
-[19:55:50.2] [Client] : Couche application effectuée.
-[19:55:50.3] [Serveur] : Header créé.
-[19:55:50.3] [Serveur] : Couche de transport effectuée.
-[19:55:50.3] [Serveur] : Couche de liaison effectuée.
-[19:55:50.3] [Serveur] : Packet reçu.
-[19:55:50.3] [Serveur] : Fichier validé.
-[19:55:50.3] [Serveur] : Couche application effectuée.
-[19:55:50.3] [Client] : Header créé.
-[19:55:50.3] [Client] : Couche de transport effectuée.
-[19:55:50.3] [Client] : Couche de liaison effectuée.
-[19:55:50.3] [Client] : Couche application effectuée.
-[19:55:50.3] [Serveur] : Header créé.
-[19:55:50.3] [Serveur] : Couche de transport effectuée.
-[19:55:50.3] [Serveur] : Couche de liaison effectuée.
-[19:55:50.3] [Serveur] : Packet reçu.
-[19:55:50.3] [Serveur] : Fichier validé.
-[19:55:50.3] [Serveur] : Couche application effectuée.
-[19:55:50.3] [Client] : Header créé.
-[19:55:50.3] [Client] : Couche de transport effectuée.
-[19:55:50.3] [Client] : Couche de liaison effectuée.
-[19:55:50.3] [Client] : Couche application effectuée.
-[19:55:50.3] [Serveur] : Header créé.
-[19:55:50.3] [Serveur] : Couche de transport effectuée.
-[19:55:50.3] [Serveur] : Couche de liaison effectuée.
-[19:55:50.3] [Client] : Header créé.
-[19:55:50.3] [Client] : Couche de transport effectuée.
-[19:55:50.3] [Client] : Couche de liaison effectuée.
-[19:55:50.3] [Client] : Couche application effectuée.
-[19:55:50.3] [Serveur] : Packet reçu.
-[19:55:50.3] [Serveur] : Fichier validé.
-[19:55:50.3] [Serveur] : Couche application effectuée.
-[19:55:50.3] [Serveur] : Header créé.
-[19:55:50.3] [Serveur] : Couche de transport effectuée.
-[19:55:50.3] [Serveur] : Couche de liaison effectuée.
-[19:55:50.3] [Client] : Header créé.
-[19:55:50.3] [Client] : Couche de transport effectuée.
-[19:55:50.3] [Client] : Couche de liaison effectuée.
-[19:55:50.3] [Client] : Couche application effectuée.
-[19:55:50.4] [Serveur] : Packet reçu.
-[19:55:50.4] [Serveur] : Fichier validé.
-[19:55:50.4] [Serveur] : Couche application effectuée.
-[19:55:50.4] [Client] : Header créé.
-[19:55:50.4] [Client] : Couche de transport effectuée.
-[19:55:50.4] [Client] : Couche de liaison effectuée.
-[19:55:50.4] [Client] : Couche application effectuée.
-[19:55:50.4] [Serveur] : Header créé.
-[19:55:50.4] [Serveur] : Couche de transport effectuée.
-[19:55:50.4] [Serveur] : Couche de liaison effectuée.
-[19:55:50.4] [Serveur] : Packet reçu.
-[19:55:50.4] [Serveur] : Fichier validé.
-[19:55:50.4] [Serveur] : Couche application effectuée.
-[19:55:50.4] [Client] : Header créé.
-[19:55:50.4] [Client] : Couche de transport effectuée.
-[19:55:50.4] [Client] : Couche de liaison effectuée.
-[19:55:50.4] [Client] : Couche application effectuée.
-[19:55:50.4] [Serveur] : Header créé.
-[19:55:50.4] [Serveur] : Couche de transport effectuée.
-[19:55:50.4] [Serveur] : Couche de liaison effectuée.
-[19:55:50.4] [Serveur] : Packet reçu.
-[19:55:50.4] [Serveur] : Fichier validé.
-[19:55:50.4] [Serveur] : Couche application effectuée.
-[19:55:50.4] [Client] : Header créé.
-[19:55:50.4] [Client] : Couche de transport effectuée.
-[19:55:50.4] [Client] : Couche de liaison effectuée.
-[19:55:50.4] [Client] : Couche application effectuée.
-[19:55:50.4] [Serveur] : Header créé.
-[19:55:50.4] [Serveur] : Couche de transport effectuée.
-[19:55:50.4] [Serveur] : Couche de liaison effectuée.
-[19:55:50.4] [Client] : Header créé.
-[19:55:50.4] [Client] : Couche de transport effectuée.
-[19:55:50.4] [Client] : Couche de liaison effectuée.
-[19:55:50.4] [Client] : Couche application effectuée.
-[19:55:50.4] [Serveur] : Packet reçu.
-[19:55:50.4] [Serveur] : Fichier validé.
-[19:55:50.4] [Serveur] : Couche application effectuée.
-[19:55:50.5] [Serveur] : Header créé.
-[19:55:50.5] [Serveur] : Couche de transport effectuée.
-[19:55:50.5] [Serveur] : Couche de liaison effectuée.
-[19:55:50.5] [Client] : Header créé.
-[19:55:50.5] [Client] : Couche de transport effectuée.
-[19:55:50.5] [Client] : Couche de liaison effectuée.
-[19:55:50.5] [Client] : Couche application effectuée.
-[19:55:50.5] [Serveur] : Packet reçu.
-[19:55:50.5] [Serveur] : Fichier validé.
-[19:55:50.5] [Serveur] : Couche application effectuée.
-[19:55:50.5] [Serveur] : Header créé.
-[19:55:50.5] [Serveur] : Couche de transport effectuée.
-[19:55:50.5] [Serveur] : Couche de liaison effectuée.
-[19:55:50.5] [Client] : Header créé.
-[19:55:50.5] [Client] : Couche de transport effectuée.
-[19:55:50.5] [Client] : Couche de liaison effectuée.
-[19:55:50.5] [Serveur] : Packet reçu.
-[19:55:50.5] [Serveur] : Fichier validé.
-[19:55:50.5] [Serveur] : Couche application effectuée.
-[19:55:50.5] [Serveur] : Header créé.
-[19:55:50.5] [Serveur] : Couche de transport effectuée.
-[19:55:50.5] [Serveur] : Couche de liaison effectuée.
-[19:55:50.5] [Serveur] : Packet reçu.
-[19:55:50.5] [Serveur] : Fichier validé.
-[19:55:50.5] [Serveur] : Couche application effectuée.
-[19:55:50.5] [Serveur] : Header créé.
-[19:55:50.5] [Serveur] : Couche de transport effectuée.
-[19:55:50.5] [Serveur] : Couche de liaison effectuée.
-[19:55:50.5] [Serveur] : Packet reçu.
-[19:55:50.5] [Serveur] : Fichier validé.
-[19:55:50.5] [Serveur] : Couche application effectuée.
-[19:55:50.5] [Serveur] : Header créé.
-[19:55:50.5] [Serveur] : Couche de transport effectuée.
-[19:55:50.5] [Serveur] : Couche de liaison effectuée.
-[20:01:14.0] [Client] : Header créé.
-[20:01:14.0] [Client] : Couche de transport effectuée.
-[20:01:14.0] [Client] : Couche de liaison effectuée.
-[20:01:14.0] [Serveur] : Packet reçu.
-[20:01:14.1] [Serveur] : Fichier validé.
-[20:01:14.1] [Serveur] : Couche application effectuée.
-[20:01:14.1] [Serveur] : Header créé.
-[20:01:14.1] [Serveur] : Couche de transport effectuée.
-[20:01:14.1] [Serveur] : Couche de liaison effectuée.
-[20:01:14.1] [Client] : Couche application effectuée.
-[20:01:14.1] [Client] : Header créé.
-[20:01:14.1] [Client] : Couche de transport effectuée.
-[20:01:14.1] [Client] : Couche de liaison effectuée.
-[20:01:14.1] [Client] : Couche application effectuée.
-[20:01:14.1] [Serveur] : Packet reçu.
-[20:01:14.1] [Serveur] : Fichier validé.
-[20:01:14.1] [Serveur] : Couche application effectuée.
-[20:01:14.1] [Client] : Header créé.
-[20:01:14.1] [Client] : Couche de transport effectuée.
-[20:01:14.1] [Client] : Couche de liaison effectuée.
-[20:01:14.1] [Client] : Couche application effectuée.
-[20:01:14.1] [Serveur] : Header créé.
-[20:01:14.1] [Serveur] : Couche de transport effectuée.
-[20:01:14.1] [Serveur] : Couche de liaison effectuée.
-[20:01:14.1] [Serveur] : Packet reçu.
-[20:01:14.1] [Serveur] : Fichier validé.
-[20:01:14.1] [Serveur] : Couche application effectuée.
-[20:01:14.1] [Client] : Header créé.
-[20:01:14.1] [Client] : Couche de transport effectuée.
-[20:01:14.1] [Client] : Couche de liaison effectuée.
-[20:01:14.1] [Client] : Couche application effectuée.
-[20:01:14.2] [Serveur] : Header créé.
-[20:01:14.2] [Serveur] : Couche de transport effectuée.
-[20:01:14.2] [Serveur] : Couche de liaison effectuée.
-[20:01:14.2] [Serveur] : Packet reçu.
-[20:01:14.2] [Serveur] : Fichier validé.
-[20:01:14.2] [Serveur] : Couche application effectuée.
-[20:01:14.2] [Client] : Header créé.
-[20:01:14.2] [Client] : Couche de transport effectuée.
-[20:01:14.2] [Client] : Couche de liaison effectuée.
-[20:01:14.2] [Client] : Couche application effectuée.
-[20:01:14.2] [Serveur] : Header créé.
-[20:01:14.2] [Serveur] : Couche de transport effectuée.
-[20:01:14.2] [Serveur] : Couche de liaison effectuée.
-[20:01:14.2] [Serveur] : Packet reçu.
-[20:01:14.2] [Serveur] : Fichier validé.
-[20:01:14.2] [Serveur] : Couche application effectuée.
-[20:01:14.2] [Client] : Header créé.
-[20:01:14.2] [Client] : Couche de transport effectuée.
-[20:01:14.2] [Client] : Couche de liaison effectuée.
-[20:01:14.2] [Client] : Couche application effectuée.
-[20:01:14.2] [Serveur] : Header créé.
-[20:01:14.2] [Serveur] : Couche de transport effectuée.
-[20:01:14.2] [Serveur] : Couche de liaison effectuée.
-[20:01:14.2] [Serveur] : Packet reçu.
-[20:01:14.2] [Serveur] : Fichier validé.
-[20:01:14.2] [Serveur] : Couche application effectuée.
-[20:01:14.2] [Client] : Header créé.
-[20:01:14.2] [Client] : Couche de transport effectuée.
-[20:01:14.2] [Client] : Couche de liaison effectuée.
-[20:01:14.2] [Client] : Couche application effectuée.
-[20:01:14.2] [Serveur] : Header créé.
-[20:01:14.2] [Serveur] : Couche de transport effectuée.
-[20:01:14.2] [Serveur] : Couche de liaison effectuée.
-[20:01:14.2] [Client] : Header créé.
-[20:01:14.2] [Client] : Couche de transport effectuée.
-[20:01:14.2] [Client] : Couche de liaison effectuée.
-[20:01:14.2] [Client] : Couche application effectuée.
-[20:01:14.2] [Serveur] : Packet reçu.
-[20:01:14.2] [Serveur] : Fichier validé.
-[20:01:14.2] [Serveur] : Couche application effectuée.
-[20:01:14.3] [Client] : Header créé.
-[20:01:14.3] [Client] : Couche de transport effectuée.
-[20:01:14.3] [Client] : Couche de liaison effectuée.
-[20:01:14.3] [Client] : Couche application effectuée.
-[20:01:14.3] [Serveur] : Header créé.
-[20:01:14.3] [Serveur] : Couche de transport effectuée.
-[20:01:14.3] [Serveur] : Couche de liaison effectuée.
-[20:01:14.3] [Serveur] : Packet reçu.
-[20:01:14.3] [Serveur] : Fichier validé.
-[20:01:14.3] [Serveur] : Couche application effectuée.
-[20:01:14.3] [Client] : Header créé.
-[20:01:14.3] [Client] : Couche de transport effectuée.
-[20:01:14.3] [Client] : Couche de liaison effectuée.
-[20:01:14.3] [Client] : Couche application effectuée.
-[20:01:14.3] [Serveur] : Header créé.
-[20:01:14.3] [Serveur] : Couche de transport effectuée.
-[20:01:14.3] [Serveur] : Couche de liaison effectuée.
-[20:01:14.3] [Serveur] : Packet reçu.
-[20:01:14.3] [Serveur] : Fichier validé.
-[20:01:14.3] [Serveur] : Couche application effectuée.
-[20:01:14.3] [Client] : Header créé.
-[20:01:14.3] [Client] : Couche de transport effectuée.
-[20:01:14.3] [Client] : Couche de liaison effectuée.
-[20:01:14.3] [Client] : Couche application effectuée.
-[20:01:14.3] [Serveur] : Header créé.
-[20:01:14.3] [Serveur] : Couche de transport effectuée.
-[20:01:14.3] [Serveur] : Couche de liaison effectuée.
-[20:01:14.3] [Serveur] : Packet reçu.
-[20:01:14.3] [Serveur] : Fichier validé.
-[20:01:14.3] [Serveur] : Couche application effectuée.
-[20:01:14.3] [Client] : Header créé.
-[20:01:14.3] [Client] : Couche de transport effectuée.
-[20:01:14.3] [Client] : Couche de liaison effectuée.
-[20:01:14.3] [Client] : Couche application effectuée.
-[20:01:14.3] [Serveur] : Header créé.
-[20:01:14.3] [Serveur] : Couche de transport effectuée.
-[20:01:14.3] [Serveur] : Couche de liaison effectuée.
-[20:01:14.3] [Serveur] : Packet reçu.
-[20:01:14.3] [Serveur] : Fichier validé.
-[20:01:14.3] [Serveur] : Couche application effectuée.
-[20:01:14.3] [Client] : Header créé.
-[20:01:14.3] [Client] : Couche de transport effectuée.
-[20:01:14.3] [Client] : Couche de liaison effectuée.
-[20:01:14.3] [Client] : Couche application effectuée.
-[20:01:14.4] [Serveur] : Header créé.
-[20:01:14.4] [Serveur] : Couche de transport effectuée.
-[20:01:14.4] [Serveur] : Couche de liaison effectuée.
-[20:01:14.4] [Serveur] : Packet reçu.
-[20:01:14.4] [Serveur] : Fichier validé.
-[20:01:14.4] [Serveur] : Couche application effectuée.
-[20:01:14.4] [Client] : Header créé.
-[20:01:14.4] [Client] : Couche de transport effectuée.
-[20:01:14.4] [Client] : Couche de liaison effectuée.
-[20:01:14.4] [Serveur] : Header créé.
-[20:01:14.4] [Serveur] : Couche de transport effectuée.
-[20:01:14.4] [Serveur] : Couche de liaison effectuée.
-[20:01:14.4] [Serveur] : Packet reçu.
-[20:01:14.4] [Serveur] : Fichier validé.
-[20:01:14.4] [Serveur] : Couche application effectuée.
-[20:01:14.4] [Serveur] : Header créé.
-[20:01:14.4] [Serveur] : Couche de transport effectuée.
-[20:01:14.4] [Serveur] : Couche de liaison effectuée.
-[20:01:14.4] [Serveur] : Packet reçu.
-[20:01:14.4] [Serveur] : Fichier validé.
-[20:01:14.4] [Serveur] : Couche application effectuée.
-[20:01:14.4] [Serveur] : Header créé.
-[20:01:14.4] [Serveur] : Couche de transport effectuée.
-[20:01:14.4] [Serveur] : Couche de liaison effectuée.
-[20:03:34.2] [Client] : Header créé.
-[20:03:34.2] [Client] : Couche de transport effectuée.
-[20:03:34.2] [Client] : Couche de liaison effectuée.
-[20:03:34.2] [Serveur] : Packet reçu.
-[20:03:34.2] [Serveur] : Fichier validé.
-[20:03:34.2] [Serveur] : Couche application effectuée.
-[20:03:34.3] [Serveur] : Header créé.
-[20:03:34.3] [Serveur] : Couche de transport effectuée.
-[20:03:34.3] [Serveur] : Couche de liaison effectuée.
-[20:03:34.3] [Client] : Couche application effectuée.
-[20:03:34.3] [Client] : Header créé.
-[20:03:34.3] [Client] : Couche de transport effectuée.
-[20:03:34.3] [Client] : Couche de liaison effectuée.
-[20:03:34.3] [Client] : Couche application effectuée.
-[20:03:34.3] [Serveur] : Packet reçu.
-[20:03:34.3] [Serveur] : Fichier validé.
-[20:03:34.3] [Serveur] : Couche application effectuée.
-[20:03:34.3] [Client] : Header créé.
-[20:03:34.3] [Client] : Couche de transport effectuée.
-[20:03:34.3] [Client] : Couche de liaison effectuée.
-[20:03:34.3] [Client] : Couche application effectuée.
-[20:03:34.3] [Serveur] : Header créé.
-[20:03:34.3] [Serveur] : Couche de transport effectuée.
-[20:03:34.3] [Serveur] : Couche de liaison effectuée.
-[20:03:34.3] [Serveur] : Packet reçu.
-[20:03:34.3] [Serveur] : Fichier validé.
-[20:03:34.3] [Serveur] : Couche application effectuée.
-[20:03:34.3] [Client] : Header créé.
-[20:03:34.3] [Client] : Couche de transport effectuée.
-[20:03:34.3] [Client] : Couche de liaison effectuée.
-[20:03:34.3] [Client] : Couche application effectuée.
-[20:03:34.3] [Serveur] : Header créé.
-[20:03:34.3] [Serveur] : Couche de transport effectuée.
-[20:03:34.3] [Serveur] : Couche de liaison effectuée.
-[20:03:34.3] [Serveur] : Packet reçu.
-[20:03:34.3] [Serveur] : Fichier validé.
-[20:03:34.3] [Serveur] : Couche application effectuée.
-[20:03:34.4] [Client] : Header créé.
-[20:03:34.4] [Client] : Couche de transport effectuée.
-[20:03:34.4] [Client] : Couche de liaison effectuée.
-[20:03:34.4] [Client] : Couche application effectuée.
-[20:03:34.4] [Serveur] : Header créé.
-[20:03:34.4] [Serveur] : Couche de transport effectuée.
-[20:03:34.4] [Serveur] : Couche de liaison effectuée.
-[20:03:34.4] [Serveur] : Packet reçu.
-[20:03:34.4] [Serveur] : Fichier validé.
-[20:03:34.4] [Serveur] : Couche application effectuée.
-[20:03:34.4] [Client] : Header créé.
-[20:03:34.4] [Client] : Couche de transport effectuée.
-[20:03:34.4] [Client] : Couche de liaison effectuée.
-[20:03:34.4] [Client] : Couche application effectuée.
-[20:03:34.4] [Serveur] : Header créé.
-[20:03:34.4] [Serveur] : Couche de transport effectuée.
-[20:03:34.4] [Serveur] : Couche de liaison effectuée.
-[20:03:34.4] [Client] : Header créé.
-[20:03:34.4] [Client] : Couche de transport effectuée.
-[20:03:34.4] [Client] : Couche de liaison effectuée.
-[20:03:34.4] [Client] : Couche application effectuée.
-[20:03:34.4] [Serveur] : Packet reçu.
-[20:03:34.4] [Serveur] : Fichier validé.
-[20:03:34.4] [Serveur] : Couche application effectuée.
-[20:03:34.4] [Client] : Header créé.
-[20:03:34.4] [Client] : Couche de transport effectuée.
-[20:03:34.4] [Client] : Couche de liaison effectuée.
-[20:03:34.4] [Client] : Couche application effectuée.
-[20:03:34.4] [Serveur] : Header créé.
-[20:03:34.4] [Serveur] : Couche de transport effectuée.
-[20:03:34.4] [Serveur] : Couche de liaison effectuée.
-[20:03:34.4] [Serveur] : Packet reçu.
-[20:03:34.4] [Serveur] : Fichier validé.
-[20:03:34.4] [Serveur] : Couche application effectuée.
-[20:03:34.4] [Client] : Header créé.
-[20:03:34.4] [Client] : Couche de transport effectuée.
-[20:03:34.4] [Client] : Couche de liaison effectuée.
-[20:03:34.4] [Client] : Couche application effectuée.
-[20:03:34.5] [Serveur] : Header créé.
-[20:03:34.5] [Serveur] : Couche de transport effectuée.
-[20:03:34.5] [Serveur] : Couche de liaison effectuée.
-[20:03:34.5] [Serveur] : Packet reçu.
-[20:03:34.5] [Serveur] : Fichier validé.
-[20:03:34.5] [Serveur] : Couche application effectuée.
-[20:03:34.5] [Client] : Header créé.
-[20:03:34.5] [Client] : Couche de transport effectuée.
-[20:03:34.5] [Client] : Couche de liaison effectuée.
-[20:03:34.5] [Client] : Couche application effectuée.
-[20:03:34.5] [Serveur] : Header créé.
-[20:03:34.5] [Serveur] : Couche de transport effectuée.
-[20:03:34.5] [Serveur] : Couche de liaison effectuée.
-[20:03:34.5] [Serveur] : Packet reçu.
-[20:03:34.5] [Serveur] : Fichier validé.
-[20:03:34.5] [Serveur] : Couche application effectuée.
-[20:03:34.5] [Client] : Header créé.
-[20:03:34.5] [Client] : Couche de transport effectuée.
-[20:03:34.5] [Client] : Couche de liaison effectuée.
-[20:03:34.5] [Client] : Couche application effectuée.
-[20:03:34.5] [Serveur] : Header créé.
-[20:03:34.5] [Serveur] : Couche de transport effectuée.
-[20:03:34.5] [Serveur] : Couche de liaison effectuée.
-[20:03:34.5] [Serveur] : Packet reçu.
-[20:03:34.5] [Serveur] : Fichier validé.
-[20:03:34.5] [Serveur] : Couche application effectuée.
-[20:03:34.5] [Client] : Header créé.
-[20:03:34.5] [Client] : Couche de transport effectuée.
-[20:03:34.5] [Client] : Couche de liaison effectuée.
-[20:03:34.5] [Client] : Couche application effectuée.
-[20:03:34.5] [Serveur] : Header créé.
-[20:03:34.5] [Serveur] : Couche de transport effectuée.
-[20:03:34.5] [Serveur] : Couche de liaison effectuée.
-[20:03:34.5] [Client] : Header créé.
-[20:03:34.5] [Client] : Couche de transport effectuée.
-[20:03:34.5] [Client] : Couche de liaison effectuée.
-[20:03:34.5] [Client] : Couche application effectuée.
-[20:03:34.5] [Serveur] : Packet reçu.
-[20:03:34.5] [Serveur] : Fichier validé.
-[20:03:34.5] [Serveur] : Couche application effectuée.
-[20:03:34.6] [Serveur] : Header créé.
-[20:03:34.6] [Serveur] : Couche de transport effectuée.
-[20:03:34.6] [Serveur] : Couche de liaison effectuée.
-[20:03:34.6] [Client] : Header créé.
-[20:03:34.6] [Client] : Couche de transport effectuée.
-[20:03:34.6] [Client] : Couche de liaison effectuée.
-[20:03:34.6] [Serveur] : Packet reçu.
-[20:03:34.6] [Serveur] : Fichier validé.
-[20:03:34.6] [Serveur] : Couche application effectuée.
-[20:03:34.6] [Serveur] : Header créé.
-[20:03:34.6] [Serveur] : Couche de transport effectuée.
-[20:03:34.6] [Serveur] : Couche de liaison effectuée.
-[20:03:34.6] [Serveur] : Packet reçu.
-[20:03:34.6] [Serveur] : Fichier validé.
-[20:03:34.6] [Serveur] : Couche application effectuée.
-[20:03:34.6] [Serveur] : Header créé.
-[20:03:34.6] [Serveur] : Couche de transport effectuée.
-[20:03:34.6] [Serveur] : Couche de liaison effectuée.
-[20:03:34.6] [Serveur] : Packet reçu.
-[20:03:34.6] [Serveur] : Fichier validé.
-[20:03:34.6] [Serveur] : Couche application effectuée.
-[20:03:34.6] [Serveur] : Header créé.
-[20:03:34.6] [Serveur] : Couche de transport effectuée.
-[20:03:34.6] [Serveur] : Couche de liaison effectuée.
-[20:04:18.5] [Client] : Header créé.
-[20:04:18.5] [Client] : Couche de transport effectuée.
-[20:04:18.5] [Client] : Couche de liaison effectuée.
-[20:04:18.5] [Serveur] : Packet reçu.
-[20:04:18.6] [Serveur] : Fichier validé.
-[20:04:18.6] [Serveur] : Couche application effectuée.
-[20:04:18.6] [Serveur] : Header créé.
-[20:04:18.6] [Serveur] : Couche de transport effectuée.
-[20:04:18.6] [Serveur] : Couche de liaison effectuée.
-[20:04:18.6] [Client] : Couche application effectuée.
-[20:04:18.6] [Client] : Header créé.
-[20:04:18.6] [Client] : Couche de transport effectuée.
-[20:04:18.6] [Client] : Couche de liaison effectuée.
-[20:04:18.6] [Client] : Couche application effectuée.
-[20:04:18.6] [Serveur] : Packet reçu.
-[20:04:18.6] [Serveur] : Fichier validé.
-[20:04:18.6] [Serveur] : Couche application effectuée.
-[20:04:18.6] [Client] : Header créé.
-[20:04:18.6] [Client] : Couche de transport effectuée.
-[20:04:18.6] [Client] : Couche de liaison effectuée.
-[20:04:18.6] [Client] : Couche application effectuée.
-[20:04:18.6] [Serveur] : Header créé.
-[20:04:18.6] [Serveur] : Couche de transport effectuée.
-[20:04:18.6] [Serveur] : Couche de liaison effectuée.
-[20:04:18.6] [Serveur] : Packet reçu.
-[20:04:18.6] [Serveur] : Fichier validé.
-[20:04:18.6] [Serveur] : Couche application effectuée.
-[20:04:18.6] [Client] : Header créé.
-[20:04:18.6] [Client] : Couche de transport effectuée.
-[20:04:18.6] [Client] : Couche de liaison effectuée.
-[20:04:18.6] [Client] : Couche application effectuée.
-[20:04:18.6] [Serveur] : Header créé.
-[20:04:18.6] [Serveur] : Couche de transport effectuée.
-[20:04:18.6] [Serveur] : Couche de liaison effectuée.
-[20:04:18.6] [Serveur] : Packet reçu.
-[20:04:18.6] [Serveur] : Fichier validé.
-[20:04:18.6] [Serveur] : Couche application effectuée.
-[20:04:18.7] [Client] : Header créé.
-[20:04:18.7] [Client] : Couche de transport effectuée.
-[20:04:18.7] [Client] : Couche de liaison effectuée.
-[20:04:18.7] [Client] : Couche application effectuée.
-[20:04:18.7] [Serveur] : Header créé.
-[20:04:18.7] [Serveur] : Couche de transport effectuée.
-[20:04:18.7] [Serveur] : Couche de liaison effectuée.
-[20:04:18.7] [Client] : Header créé.
-[20:04:18.7] [Client] : Couche de transport effectuée.
-[20:04:18.7] [Client] : Couche de liaison effectuée.
-[20:04:18.7] [Client] : Couche application effectuée.
-[20:04:18.7] [Serveur] : Packet reçu.
-[20:04:18.7] [Serveur] : Fichier validé.
-[20:04:18.7] [Serveur] : Couche application effectuée.
-[20:04:18.7] [Serveur] : Header créé.
-[20:04:18.7] [Serveur] : [20:04:18.7] [Client] : Couche de transport effectuée.
-Header créé.
-[20:04:18.7] [Client] : Couche de transport effectuée.[20:04:18.7] [Serveur] : 
-Couche de liaison effectuée.
-[20:04:18.7] [Client] : Couche de liaison effectuée.
-[20:04:18.7] [Client] : Couche application effectuée.
-[20:04:18.7] [Serveur] : Packet reçu.
-[20:04:18.7] [Serveur] : Fichier validé.
-[20:04:18.7] [Serveur] : Couche application effectuée.
-[20:04:18.7] [Client] : Header créé.
-[20:04:18.7] [Client] : Couche de transport effectuée.
-[20:04:18.7] [Client] : Couche de liaison effectuée.
-[20:04:18.7] [Client] : Couche application effectuée.
-[20:04:18.7] [Serveur] : Header créé.
-[20:04:18.7] [Serveur] : Couche de transport effectuée.
-[20:04:18.7] [Serveur] : Couche de liaison effectuée.
-[20:04:18.7] [Serveur] : Packet reçu.
-[20:04:18.7] [Serveur] : Fichier validé.
-[20:04:18.7] [Serveur] : Couche application effectuée.
-[20:04:18.7] [Client] : Header créé.
-[20:04:18.7] [Client] : Couche de transport effectuée.
-[20:04:18.7] [Client] : Couche de liaison effectuée.
-[20:04:18.7] [Client] : Couche application effectuée.
-[20:04:18.7] [Serveur] : Header créé.
-[20:04:18.7] [Serveur] : Couche de transport effectuée.
-[20:04:18.7] [Serveur] : Couche de liaison effectuée.
-[20:04:18.8] [Serveur] : Packet reçu.
-[20:04:18.8] [Serveur] : Fichier validé.
-[20:04:18.8] [Serveur] : Couche application effectuée.
-[20:04:18.8] [Client] : Header créé.
-[20:04:18.8] [Client] : Couche de transport effectuée.
-[20:04:18.8] [Client] : Couche de liaison effectuée.
-[20:04:18.8] [Client] : Couche application effectuée.
-[20:04:18.8] [Serveur] : Header créé.
-[20:04:18.8] [Serveur] : Couche de transport effectuée.
-[20:04:18.8] [Serveur] : Couche de liaison effectuée.
-[20:04:18.8] [Client] : Header créé.
-[20:04:18.8] [Client] : Couche de transport effectuée.
-[20:04:18.8] [Client] : Couche de liaison effectuée.
-[20:04:18.8] [Client] : Couche application effectuée.
-[20:04:18.8] [Serveur] : Packet reçu.
-[20:04:18.8] [Serveur] : Fichier validé.
-[20:04:18.8] [Serveur] : Couche application effectuée.
-[20:04:18.8] [Client] : Header créé.
-[20:04:18.8] [Client] : Couche de transport effectuée.
-[20:04:18.8] [Client] : Couche de liaison effectuée.
-[20:04:18.8] [Client] : Couche application effectuée.
-[20:04:18.8] [Serveur] : Header créé.
-[20:04:18.8] [Serveur] : Couche de transport effectuée.
-[20:04:18.8] [Serveur] : Couche de liaison effectuée.
-[20:04:18.8] [Serveur] : Packet reçu.
-[20:04:18.8] [Serveur] : Fichier validé.
-[20:04:18.8] [Serveur] : Couche application effectuée.
-[20:04:18.8] [Client] : Header créé.
-[20:04:18.8] [Client] : Couche de transport effectuée.
-[20:04:18.8] [Client] : Couche de liaison effectuée.
-[20:04:18.8] [Client] : Couche application effectuée.
-[20:04:18.8] [Serveur] : Header créé.
-[20:04:18.8] [Serveur] : Couche de transport effectuée.
-[20:04:18.8] [Serveur] : Couche de liaison effectuée.
-[20:04:18.8] [Serveur] : Packet reçu.
-[20:04:18.8] [Serveur] : Fichier validé.
-[20:04:18.8] [Serveur] : Couche application effectuée.
-[20:04:18.9] [Client] : Header créé.
-[20:04:18.9] [Client] : Couche de transport effectuée.
-[20:04:18.9] [Client] : Couche de liaison effectuée.
-[20:04:18.9] [Serveur] : Header créé.
-[20:04:18.9] [Serveur] : Couche de transport effectuée.
-[20:04:18.9] [Serveur] : Couche de liaison effectuée.
-[20:04:18.9] [Serveur] : Packet reçu.
-[20:04:18.9] [Serveur] : Fichier validé.
-[20:04:18.9] [Serveur] : Couche application effectuée.
-[20:04:18.9] [Serveur] : Header créé.
-[20:04:18.9] [Serveur] : Couche de transport effectuée.
-[20:04:18.9] [Serveur] : Couche de liaison effectuée.
-[20:04:18.9] [Serveur] : Packet reçu.
-[20:04:18.9] [Serveur] : Fichier validé.
-[20:04:18.9] [Serveur] : Couche application effectuée.
-[20:04:18.9] [Serveur] : Header créé.
-[20:04:18.9] [Serveur] : Couche de transport effectuée.
-[20:04:18.9] [Serveur] : Couche de liaison effectuée.
-[20:04:18.9] [Serveur] : Packet reçu.
-[20:04:18.9] [Serveur] : Fichier validé.
-[20:04:18.9] [Serveur] : Couche application effectuée.
-[20:04:18.9] [Serveur] : Header créé.
-[20:04:18.9] [Serveur] : Couche de transport effectuée.
-[20:04:18.9] [Serveur] : Couche de liaison effectuée.
-[20:05:08.7] [Client] : Header créé.
-[20:05:08.7] [Client] : Couche de transport effectuée.
-[20:05:08.7] [Client] : Couche de liaison effectuée.
-[20:05:08.7] [Serveur] : Packet reçu.
-[20:05:08.8] [Serveur] : Fichier validé.
-[20:05:08.8] [Serveur] : Couche application effectuée.
-[20:05:08.8] [Serveur] : Header créé.
-[20:05:08.8] [Serveur] : Couche de transport effectuée.
-[20:05:08.8] [Serveur] : Couche de liaison effectuée.
-[20:05:08.8] [Client] : Header créé.
-[20:05:08.8] [Client] : Couche de transport effectuée.
-[20:05:08.8] [Client] : Couche de liaison effectuée.
-[20:05:08.8] [Client] : Couche application effectuée.
-[20:05:08.8] [Serveur] : Packet reçu.
-[20:05:08.8] [Serveur] : Fichier validé.
-[20:05:08.8] [Serveur] : Couche application effectuée.
-[20:05:08.8] [Serveur] : Header créé.
-[20:05:08.8] [Serveur] : Couche de transport effectuée.
-[20:05:08.8] [Serveur] : Couche de liaison effectuée.
+[21:54:26.9] [Client] : Couche application effectuée.
+[21:56:02.1] [Client] : Couche application effectuée.
+[21:57:05.9] [Client] : Couche application effectuée.
+[21:58:20.7] [Client] : Header créé.
+[21:58:20.7] [Client] : Couche de transport effectuée.
+[21:58:20.7] [Client] : Couche de liaison effectuée.
+[21:58:20.7] [Serveur] : Packet reçu.
+[21:58:20.7] [Serveur] : Fichier validé.
+[21:58:20.7] [Serveur] : Couche application effectuée.
+[21:58:20.7] [Serveur] : Header créé.
+[21:58:20.7] [Serveur] : Couche de transport effectuée.
+[21:58:20.7] [Serveur] : Couche de liaison effectuée.
+[21:58:20.7] [Client] : Header créé.
+[21:58:20.7] [Client] : Couche de transport effectuée.
+[21:58:20.7] [Client] : Couche de liaison effectuée.
+[21:58:20.7] [Client] : Couche application effectuée.
+[21:58:20.7] [Serveur] : Packet reçu.
+[21:58:20.7] [Serveur] : Fichier validé.
+[21:58:20.7] [Serveur] : Couche application effectuée.
+[21:58:20.8] [Serveur] : Header créé.
+[21:58:20.8] [Serveur] : Couche de transport effectuée.
+[21:58:20.8] [Serveur] : Couche de liaison effectuée.
+[21:58:37.6] [Client] : Header créé.
+[21:58:37.6] [Client] : Couche de transport effectuée.
+[21:58:37.6] [Client] : Couche de liaison effectuée.
+[21:58:37.6] [Serveur] : Packet reçu.
+[21:58:37.6] [Serveur] : Fichier validé.
+[21:58:37.6] [Serveur] : Couche application effectuée.
+[21:58:37.7] [Serveur] : Header créé.
+[21:58:37.7] [Serveur] : Couche de transport effectuée.
+[21:58:37.7] [Serveur] : Couche de liaison effectuée.
+[21:58:37.7] [Client] : Header créé.
+[21:58:37.7] [Client] : Couche de transport effectuée.
+[21:58:37.7] [Client] : Couche de liaison effectuée.
+[21:58:37.7] [Client] : Couche application effectuée.
+[21:58:37.7] [Serveur] : Packet reçu.
+[21:58:37.7] [Serveur] : Fichier validé.
+[21:58:37.7] [Serveur] : Couche application effectuée.
+[21:58:37.7] [Serveur] : Header créé.
+[21:58:37.7] [Serveur] : Couche de transport effectuée.
+[21:58:37.7] [Serveur] : Couche de liaison effectuée.
+[21:59:15.8] [Client] : Header créé.
+[21:59:15.9] [Client] : Couche de transport effectuée.
+[21:59:15.9] [Client] : Couche de liaison effectuée.
+[21:59:15.9] [Serveur] : Packet reçu.
+[21:59:15.9] [Serveur] : Fichier validé.
+[21:59:15.9] [Serveur] : Couche application effectuée.
+[21:59:15.9] [Serveur] : Header créé.
+[21:59:15.9] [Serveur] : Couche de transport effectuée.
+[21:59:15.9] [Serveur] : Couche de liaison effectuée.
+[21:59:15.9] [Client] : Couche application effectuée.
+[21:59:15.9] [Client] : Header créé.
+[21:59:15.9] [Client] : Couche de transport effectuée.
+[21:59:15.9] [Client] : Couche de liaison effectuée.
+[21:59:15.9] [Client] : Couche application effectuée.
+[21:59:15.9] [Serveur] : Packet reçu.
+[21:59:15.9] [Serveur] : Fichier validé.
+[21:59:15.9] [Serveur] : Couche application effectuée.
+[21:59:15.9] [Client] : Header créé.
+[21:59:15.9] [Client] : Couche de transport effectuée.
+[21:59:15.9] [Client] : Couche de liaison effectuée.
+[21:59:15.9] [Client] : Couche application effectuée.
+[21:59:15.9] [Serveur] : Header créé.
+[21:59:15.9] [Serveur] : Couche de transport effectuée.
+[21:59:15.9] [Serveur] : Couche de liaison effectuée.
+[21:59:16.0] [Serveur] : Packet reçu.
+[21:59:16.0] [Serveur] : Fichier validé.
+[21:59:16.0] [Serveur] : Couche application effectuée.
+[21:59:16.0] [Client] : Header créé.
+[21:59:16.0] [Client] : Couche de transport effectuée.
+[21:59:16.0] [Client] : Couche de liaison effectuée.
+[21:59:16.0] [Client] : Couche application effectuée.
+[21:59:16.0] [Serveur] : Header créé.
+[21:59:16.0] [Serveur] : Couche de transport effectuée.
+[21:59:16.0] [Serveur] : Couche de liaison effectuée.
+[21:59:16.0] [Serveur] : Packet reçu.
+[21:59:16.0] [Serveur] : Fichier validé.
+[21:59:16.0] [Serveur] : Couche application effectuée.
+[21:59:16.0] [Client] : Header créé.
+[21:59:16.0] [Client] : Couche de transport effectuée.
+[21:59:16.0] [Client] : Couche de liaison effectuée.
+[21:59:16.0] [Client] : Couche application effectuée.
+[21:59:16.0] [Serveur] : Header créé.
+[21:59:16.0] [Serveur] : Couche de transport effectuée.
+[21:59:16.0] [Serveur] : Couche de liaison effectuée.
+[21:59:16.0] [Serveur] : Packet reçu.
+[21:59:16.0] [Serveur] : Fichier validé.
+[21:59:16.0] [Serveur] : Couche application effectuée.
+[21:59:16.0] [Client] : Header créé.
+[21:59:16.0] [Client] : Couche de transport effectuée.
+[21:59:16.0] [Client] : Couche de liaison effectuée.
+[21:59:16.0] [Client] : Couche application effectuée.
+[21:59:16.0] [Serveur] : Header créé.
+[21:59:16.0] [Serveur] : Couche de transport effectuée.
+[21:59:16.0] [Serveur] : Couche de liaison effectuée.
+[21:59:16.0] [Serveur] : Packet reçu.
+[21:59:16.0] [Serveur] : Fichier validé.
+[21:59:16.0] [Serveur] : Couche application effectuée.
+[21:59:16.0] [Client] : Header créé.
+[21:59:16.0] [Client] : Couche de transport effectuée.
+[21:59:16.0] [Client] : Couche de liaison effectuée.
+[21:59:16.0] [Client] : Couche application effectuée.
+[21:59:16.0] [Serveur] : Header créé.
+[21:59:16.0] [Serveur] : Couche de transport effectuée.
+[21:59:16.0] [Serveur] : Couche de liaison effectuée.
+[21:59:16.1] [Serveur] : Packet reçu.
+[21:59:16.1] [Serveur] : Fichier validé.
+[21:59:16.1] [Serveur] : Couche application effectuée.
+[21:59:16.1] [Client] : Header créé.
+[21:59:16.1] [Client] : Couche de transport effectuée.
+[21:59:16.1] [Client] : Couche de liaison effectuée.
+[21:59:16.1] [Client] : Couche application effectuée.
+[21:59:16.1] [Serveur] : Header créé.
+[21:59:16.1] [Serveur] : Couche de transport effectuée.
+[21:59:16.1] [Serveur] : Couche de liaison effectuée.
+[21:59:16.1] [Serveur] : Packet reçu.
+[21:59:16.1] [Serveur] : Fichier validé.
+[21:59:16.1] [Serveur] : Couche application effectuée.
+[21:59:16.1] [Client] : Header créé.
+[21:59:16.1] [Client] : Couche de transport effectuée.
+[21:59:16.1] [Client] : Couche de liaison effectuée.
+[21:59:16.1] [Client] : Couche application effectuée.
+[21:59:16.1] [Serveur] : Header créé.
+[21:59:16.1] [Serveur] : Couche de transport effectuée.
+[21:59:16.1] [Serveur] : Couche de liaison effectuée.
+[21:59:16.1] [Client] : Header créé.
+[21:59:16.1] [Client] : Couche de transport effectuée.
+[21:59:16.1] [Client] : Couche de liaison effectuée.
+[21:59:16.1] [Client] : Couche application effectuée.
+[21:59:16.1] [Serveur] : Packet reçu.
+[21:59:16.1] [Serveur] : Fichier validé.
+[21:59:16.1] [Serveur] : Couche application effectuée.
+[21:59:16.1] [Serveur] : Header créé.
+[21:59:16.1] [Serveur] : Couche de transport effectuée.
+[21:59:16.1] [Serveur] : Couche de liaison effectuée.
+[21:59:16.1] [Client] : Header créé.
+[21:59:16.1] [Client] : Couche de transport effectuée.
+[21:59:16.1] [Client] : Couche de liaison effectuée.
+[21:59:16.1] [Client] : Couche application effectuée.
+[21:59:16.1] [Serveur] : Packet reçu.
+[21:59:16.1] [Serveur] : Fichier validé.
+[21:59:16.1] [Serveur] : Couche application effectuée.
+[21:59:16.1] [Client] : Header créé.
+[21:59:16.1] [Client] : Couche de transport effectuée.
+[21:59:16.1] [Client] : Couche de liaison effectuée.
+[21:59:16.1] [Client] : Couche application effectuée.
+[21:59:16.1] [Serveur] : Header créé.
+[21:59:16.1] [Serveur] : Couche de transport effectuée.
+[21:59:16.1] [Serveur] : Couche de liaison effectuée.
+[21:59:16.1] [Serveur] : Packet reçu.
+[21:59:16.1] [Serveur] : Fichier validé.
+[21:59:16.1] [Serveur] : Couche application effectuée.
+[21:59:16.2] [Client] : Header créé.
+[21:59:16.2] [Client] : Couche de transport effectuée.
+[21:59:16.2] [Client] : Couche de liaison effectuée.
+[21:59:16.2] [Client] : Couche application effectuée.
+[21:59:16.2] [Serveur] : Header créé.
+[21:59:16.2] [Serveur] : Couche de transport effectuée.
+[21:59:16.2] [Serveur] : Couche de liaison effectuée.
+[21:59:16.2] [Serveur] : Packet reçu.
+[21:59:16.2] [Serveur] : Fichier validé.
+[21:59:16.2] [Serveur] : Couche application effectuée.
+[21:59:16.2] [Client] : Header créé.
+[21:59:16.2] [Client] : Couche de transport effectuée.
+[21:59:16.2] [Client] : Couche de liaison effectuée.
+[21:59:16.2] [Serveur] : Header créé.
+[21:59:16.2] [Serveur] : Couche de transport effectuée.
+[21:59:16.2] [Serveur] : Couche de liaison effectuée.
+[21:59:16.2] [Serveur] : Packet reçu.
+[21:59:16.2] [Serveur] : Fichier validé.
+[21:59:16.2] [Serveur] : Couche application effectuée.
+[21:59:16.2] [Serveur] : Header créé.
+[21:59:16.2] [Serveur] : Couche de transport effectuée.
+[21:59:16.2] [Serveur] : Couche de liaison effectuée.
+[21:59:16.2] [Serveur] : Packet reçu.
+[21:59:16.2] [Serveur] : Fichier validé.
+[21:59:16.2] [Serveur] : Couche application effectuée.
+[21:59:16.2] [Serveur] : Header créé.
+[21:59:16.2] [Serveur] : Couche de transport effectuée.
+[21:59:16.2] [Serveur] : Couche de liaison effectuée.

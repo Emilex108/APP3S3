@@ -16,6 +16,7 @@ public class QuoteClient {
     public static int portName = 27841;
     private static int currentPacketNumber = 0;
     private static OutputStream os;
+    public static PDUBuilder builder;
 
     public static void main(String[] args) throws IOException {
         //TODO : Serveur et client -> Replace les chiffres par des CONST
@@ -31,7 +32,7 @@ public class QuoteClient {
         File file = new File("liaisonDeDonnees.log");
         os = new FileOutputStream(file, true);
 
-        PDUBuilder builder = new PDUBuilder();
+        builder = new PDUBuilder();
 
         //Création du premier packet
         builder.ajouterCoucheApplicationClient(args[0],0);
