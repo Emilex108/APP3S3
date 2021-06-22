@@ -35,8 +35,6 @@ public class QuoteClient {
 
         //Création du premier packet
         builder.ajouterCoucheApplicationClient(args[0],0);
-        builder.ajouterCoucheTransportClient(0, ni);
-        builder.ajouterCoucheLiaisonClient(socket, address, portName);
 
         byte[] receivedData = new byte[24];
         DatagramPacket packet = new DatagramPacket(receivedData, receivedData.length);
@@ -45,14 +43,14 @@ public class QuoteClient {
         while(packet.getData()[15] == 0){
             log("Renvoie du packet.");
             builder.ajouterCoucheApplicationClient(args[0],0);
-            builder.ajouterCoucheTransportClient(0, ni);
-            builder.ajouterCoucheLiaisonClient(socket, address, portName);
+            //builder.ajouterCoucheTransportClient(0, ni);
+            //builder.ajouterCoucheLiaisonClient(socket, address, portName);
             socket.receive(packet);
         }
 
         builder.ajouterCoucheApplicationClient(args[0],1);
-        builder.ajouterCoucheTransportClient(1, ni);
-        builder.ajouterCoucheLiaisonClient(socket, address, portName);
+        //builder.ajouterCoucheTransportClient(1, ni);
+        //builder.ajouterCoucheLiaisonClient(socket, address, portName);
 
         //builder.getPacket();
 

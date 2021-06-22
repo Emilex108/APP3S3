@@ -26,7 +26,7 @@ public class PacketDecoder {
             checksumCheck |= (crc[i] & 0xFF);
         }
 
-        System.out.println("Checksum Value VS Checksum Check : " + checksumValue + " " + checksumCheck);
+        System.out.println(new String(tempData));
         if(checksumValue == checksumCheck){
             return true;
         }else{
